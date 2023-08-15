@@ -1,101 +1,50 @@
-<!-- specifying the browser that this document is developed in HTML5 -->
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
-    <!-- encoding -->
     <meta charset="UTF-8" />
-
-    <!-- viewport = specifyimg to use visible white area in a device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/stylesheet.css" />
   </head>
-  <style>
-    iframe {
-      margin-left: 10px;
-    }
-  </style>
-
   <body>
-    <h1>Toodles</h1>
-    <h1>Toodles</h1>
-    <h6>hello</h6>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-      voluptate, facere doloribus explicabo nam illum omnis provident quisquam
-      est sapiente dolorem atque corrupti obcaecati porro impedit iure tempore.
-      Perferendis repellat quia nobis ipsam sit asperiores debitis labore
-      inventore dolores ducimus eos saepe iste necessitatibus corporis
-      accusamus, illum atque esse at magnam rerum similique eaque. Eligendi
-      quisquam ab alias voluptatibus nesciunt.
-    </p>
-
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
-      perspiciatis minus voluptatibus eligendi deserunt repudiandae, dolor
-      consequuntur at aperiam porro ad exercitationem, animi libero vel.
-      Quisquam earum distinctio sit quia.
-    </p>
-
-    <h2>Menu</h2>
-    <ol>
-      <li>Lasagna</li>
-      <li>Bruschetta Pizza</li>
-      <li>Almond Brocolli Soup</li>
-      <li>Spahgetti</li>
-      <li>Pasta</li>
-    </ol>
-
-    <ul>
-      <li>pasta</li>
-      <li>Pizza</li>
-      <li>Starter</li>
-      <li>Main Course</li>
-      <li>Desert</li>
-    </ul>
-
-    <dl>
-      <dt>Desert</dt>
-      <dd type="circle">Bluberry Cheesecake</dd>
-      <dd>Pineapple Cheesecake</dd>
-
-      <dt>Juice</dt>
-      <dd>Apple</dd>
-      <dd>Orange</dd>
-    </dl>
-
-    <a href="https://www.google.com" target="_blank">browse hereee...</a>
-    <br>
-    <a href="./form.html" download="./form.html">download</a>
-    <br />
-    <br />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/avz06PDqDbM"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7088207122383!2d77.54846677413673!3d12.926426915868952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f5d3782d153%3A0xd7e69bd48dadabc8!2sGopalan%20Coworks%2CBanashankari!5e0!3m2!1sen!2sin!4v1691664759881!5m2!1sen!2sin"
-      width="600"
-      height="315"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-
-    <br /><br />
-    <video
-      src="./vids/pexels-peter-fowler-6394054 (2160p).mp4"
-      controls
-      autoplay
-      muted
-      width="600px"
-    ></video>
+    <header id="header">
+      <div>
+        <div class="profile">
+          <img src="./imgs/profile-img.jpg" alt="" class="profile-img" />
+          <h1 class="font">Alex Smith</h1>
+          <div class="social-links">
+            <i class="fa-brands fa-twitter social-icons"></i>
+            <i class="fa-brands fa-facebook social-icons"></i>
+            <i class="fa-brands fa-square-instagram social-icons"></i>
+            <i class="fa-brands fa-skype social-icons"></i>
+            <i class="fa-brands fa-linkedin social-icons"></i>
+          </div>
+        </div>
+        <div id="navbar">
+          <ul class="navbar-list">
+            <li class="font"><i class="fa-solid fa-house"></i> Home</li>
+            <li class="font"><i class="fa-solid fa-person"></i> About</li>
+            <li class="font"><i class="fa-solid fa-file"></i> Resume</li>
+            <li class="font">
+              <i class="fa-solid fa-address-card"></i> Portfolio
+            </li>
+            <li class="font"><i class="fa-solid fa-server"></i> Services</li>
+            <li class="font"><i class="fa-solid fa-envelope"></i> Contact</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="hero">
+      <h1>Alex Smith</h1>
+    </div>
   </body>
 </html>
